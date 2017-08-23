@@ -7,7 +7,8 @@ dalam mengakses web service/API.
 
 Pertama silahkan sediakan API KEY dari [openweathermap.org](http://openweathermap.org).
 
-Ubah nilai variabel API_KEY pada `MyAsyncTaskLoader.java`
+Ubah nilai variabel API_KEY pada `MyAsyncTaskLoader.java` dengan API_KEY yang kamu
+dapatkan.
 
 ```java
 private String API_KEY = "YOUR API KEY";
