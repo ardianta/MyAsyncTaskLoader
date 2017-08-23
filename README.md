@@ -12,7 +12,7 @@ Setelah itu tambahkan file XML `/src/main/res/values/api_key.xml`, isinya sebaga
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="API_KEY" >YOUR API KEY</string>
+    <string name="API_KEY">YOUR API KEY</string>
 </resources>
 ```
 
