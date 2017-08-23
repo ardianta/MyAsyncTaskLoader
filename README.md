@@ -5,7 +5,7 @@ dalam mengakses web service/API.
 
 # Requirement
 
-Pertama silahkan buat API KEY dari [openweathermap.org](http://openweathermap.org).
+Pertama silahkan buat API KEY di [openweathermap.org](http://openweathermap.org).
 
 Setelah itu tambahkan file XML `/src/main/res/values/api_key.xml`, isinya sebagai berikut:
 
