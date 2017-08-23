@@ -5,14 +5,18 @@ dalam mengakses web service/API.
 
 # Requirement
 
-Pertama silahkan sediakan API KEY dari [openweathermap.org](http://openweathermap.org).
+Pertama silahkan buat API KEY dari [openweathermap.org](http://openweathermap.org).
 
-Ubah nilai variabel API_KEY pada `MyAsyncTaskLoader.java` dengan API_KEY yang kamu
-dapatkan.
+Setelah itu tambahkan file XML `/src/main/res/values/api_key.xml`, isinya sebagai berikut:
 
-```java
-private String API_KEY = "YOUR API KEY";
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="API_KEY" >YOUR API KEY</string>
+</resources>
 ```
+
+Ubah `YOUR API KEY` dengan API KEY yang kamu dapatkan dari [openweathermap.org](http://openweathermap.org).
 
 Itu saja, selamat bereksperimen... :smile:
 

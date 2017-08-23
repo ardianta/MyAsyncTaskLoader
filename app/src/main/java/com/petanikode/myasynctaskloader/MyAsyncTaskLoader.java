@@ -69,7 +69,7 @@ public class MyAsyncTaskLoader extends AsyncTaskLoader<ArrayList<WeatherItems>> 
 
 
     // openweathermap.org API KEY
-    private String API_KEY = "YOUR API KEY";
+    private String API_KEY = getContext().getString(R.string.API_KEY);
 
     @Override
     public ArrayList<WeatherItems> loadInBackground() {
